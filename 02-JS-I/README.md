@@ -88,6 +88,8 @@ Las "strings" son bloques de texto, siempre se definirán entre comillas, ya sea
 
 ```javascript
 var nombrePerro = 'firulais';
+var nombreperro2= 'Camila'; 
+
 ```
 
 ### Numbers
