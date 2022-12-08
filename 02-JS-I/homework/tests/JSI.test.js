@@ -78,6 +78,7 @@ describe('devolverString(str)', function() {
   });
 });
 
+
 describe('suma(x, y)', function() {
   it('Deberia devolver la suma de los dos argumentos', function() {
     expect(suma(5, 5)).toBe(10);
@@ -103,7 +104,7 @@ describe('divide(x, y)', function() {
 });
 
 describe('multiplica(x, y)', function() {
-  it('Deberia devolver el producto de los dos argumentos', function() {
+ it('Deberia devolver el producto de los dos argumentos', function() {
     expect(multiplica(5, 5)).toBe(25);
     expect(multiplica(10, -5)).toBe(-50);
     expect(multiplica(11, 0)).toBe(0);
@@ -115,6 +116,8 @@ describe('sonIguales(x, y)', function() {
   it('Deberia devolver true si los argumentos son iguales y sino false', function() {
     expect(sonIguales(15, 15)).toBe(true);
     expect(sonIguales(90, 50)).toBe(false);
+    expect(sonIguales('test', 'test')).toBe(true);
+    expect(sonIguales('test', 'test')).toBe(true);
     expect(sonIguales('test', 'test')).toBe(true);
   });
 });
